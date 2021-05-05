@@ -6,7 +6,7 @@ First of all, you need to install and run the redis in your PC. Here there is an
 
 ```bash
 # Clone the repo
-git clone https://github.com/adrigardi90/video-chat
+git clone https://github.com/vladkuraev84/chat
 
 # Change into the repo directory
 cd video-chat
@@ -25,10 +25,6 @@ Then visit http://localhost:8080 in your browser
 
 ## Horizontal scaling
 To test out the horizontal scaling we'll create 3 different instances. Each one running a unique nodeJS process serving the FE and exposing the API
-
-<p align="center">
-  <img src="https://github.com/adrigardi90/video-chat/blob/master/src/assets/local_env.png" alt="scaling" width="500" height="460"/>
-</p>
 
 
 ```bash

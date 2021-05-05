@@ -1,6 +1,6 @@
 {
   "name": "video-chat",
-  "description" : "Chat with 1 to 1 and many to many video functionality",
+  "description": "Chat with 1 to 1 and many to many video functionality",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,7 +15,9 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "http": "0.0.0",
+    "node-sass": "^4.14.0",
     "path": "^0.12.7",
+    "sass": "^1.32.12",
     "socket.io": "^2.2.0",
     "socket.io-client": "^2.3.0",
     "socket.io-redis": "^5.2.0",
@@ -35,7 +37,6 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
     "vue-template-compiler": "^2.5.21"
   }

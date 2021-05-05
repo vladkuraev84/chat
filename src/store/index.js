@@ -62,10 +62,10 @@ export default new Vuex.Store({
               name: 'GENERAL'
             }, {
               id: 2,
-              name: 'SPORTS'
+              name: 'AGENTS'
             },{
               id: 3,
-              name: 'GAMES'
+              name: 'INDIVIDUALS'
             },
           ]
           commit(STORE_ACTIONS.setRooms, rooms)
