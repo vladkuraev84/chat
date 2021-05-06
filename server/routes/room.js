@@ -8,11 +8,11 @@ const rooms = [
     },
     {
         id: 2,
-        name: 'SPORTS'
+        name: 'AGENTS'
     },
     {
         id: 3,
-        name: 'GAMES'
+        name: 'INDIVIDUALS'
     },
 ]
 

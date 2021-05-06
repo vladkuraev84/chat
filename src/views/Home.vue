@@ -91,7 +91,9 @@ export default {
   }
 
   & form {
-    width: 460px;
+    max-width: 460px;
+    width: 100%;
+    padding: 0 15px;
   }
   &__submit {
     width: 100%;

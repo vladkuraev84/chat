@@ -154,6 +154,11 @@ export default {
   background-color: black;
   height: 100%;
   width: 400px;
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
   &__header {
     display: flex;
     justify-content: space-between;

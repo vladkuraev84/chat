@@ -12,6 +12,16 @@
   text-align: center;
   color: #2c3e50;
   height: 100vh;
+
+  @media screen and (max-width: 767px) {
+    height: auto;
+  }
+}
+
+html {
+  @media screen and (max-width: 767px) {
+    height: auto;
+  }
 }
 #nav {
   a {

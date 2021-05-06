@@ -254,6 +254,11 @@ export default {
   background: url("./../assets/bck.jpg");
   background-size: 100% 100%;
 
+
+  @media screen and (max-width: 767px) {
+    flex-direction: column-reverse;
+  }
+
   .chat {
     flex:1
   }
@@ -312,6 +317,12 @@ export default {
     margin: 0 auto;
     height: 70vh;
     max-width: 1300px;
+
+
+    @media screen and (max-width: 767px) {
+      height: auto;
+      min-height: 70vh;
+    }
 
     & .md-content.md-theme-default {
       background: url("./../assets/msg_bck.png");
